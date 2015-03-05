@@ -23,7 +23,18 @@ shinyUI(fluidPage(
       h3("Details"),
       HTML("The intent
            behind releasing the parsed agents is to make it easier for Wikimedia developers
-           to understand how to best test their software for the group they're targeting.<br/><br/>"),
+           to understand how to best test their software for the group they're targeting.<br/><br/>
+           
+           The actual data collection and anonymisation process varied between readers and editors. For readers, a 1:1000
+           sampled log of pageviews in the last 30 days was taken. Any user agent that had more than 500 (in other words,
+           500,000) requests in a 24-hour period, from no fewer than 500/500,000 distinct IP addresses, was extracted,
+           along with a count of how many times the agent appeared. For editors, a 90 day sample of user agents was taken
+           globally; any user agent used by >= 50 distinct users was extracted, along with a count of the associated
+           number of edits. <br/><br/>
+           
+           For both sets, the agents were then split by 'site used' - whether they were requests to/edits through the desktop
+           or mobile versions of the site - and then parsed using ua-parser. The results of that parsing were themselves aggregated,
+           resulting in the datasets you see here."),
       htmlOutput("links"),
       h2("Reusing this data"),
       HTML("The data is released into the public domain under the
