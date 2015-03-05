@@ -45,10 +45,12 @@ readers <- function(){
   agents <- mclapply(files, function(x){
     result <- to_pageviews(read_sampled_log(x))
     result <- data.table(agents = result$user_agent,
-                         class = identify_access_method(result$url))
+                         class = identify_access_method(result$url),
+                         ips = normalise_ips(result$ip_address, result$x_forwarded))
+    
     result <- result[!result$class == "mobile app",]
-    result <- result[,j = list(pageviews = .N), by = c("agents","class")]
-    result <- result[result$pageviews > 500,]
+    result <- result[,j = list(pageviews = .N, unique_ips = length(unique(ips))), by = c("agents","class")]
+    result <- result[result$pageviews > 500 & result$unique_ips > 500,]
     cat(".")
     return(result)
   }, mc.preschedule = FALSE, mc.cores = 4)
