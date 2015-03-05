@@ -10,7 +10,7 @@ shinyUI(fluidPage(
   sidebarLayout(
     sidebarPanel(
       selectInput(inputId = "access_method",
-                  label = "Access method:",
+                  label = "Site used:",
                   choices = c("desktop","mobile"),
                   selected = "desktop"),
       selectInput(inputId = "user_type",
