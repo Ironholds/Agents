@@ -17,9 +17,8 @@ shinyServer(function(input, output) {
   #just contains the user agents and a count) and one for the "parsed"
   #file (which contains a data.frame of the parsed fields)
   output$links <- renderUI({
-    HTML(paste0("You can download the <a href ='", generate_download_link(input$access_method, input$user_type, TRUE),"'> raw agents</a>"),
-         " and the <a href='", generate_download_link(input$access_method, input$user_type, FALSE),"'> parsed agents</a>
-          for this subset. The full set of files can be found <a href = ''> here</a>.")
+    HTML(paste0("You can download the <a href='", generate_download_link(input$access_method, input$user_type, FALSE),"'> parsed agents</a>
+          for this subset."))
   })
   
   output$agent_table <- renderDataTable({

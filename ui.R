@@ -24,7 +24,7 @@ shinyUI(fluidPage(
       HTML("The intent
            behind releasing the parsed agents is to make it easier for Wikimedia developers
            to understand how to best test their software for the group they're targeting. We are
-           looking into potentiall releasing the <em>raw</em> agents as well, in order to enable
+           looking into potentially releasing the <em>raw</em> agents as well, in order to enable
            upstream developers to refine user agent parsers.<br/><br/>"),
       htmlOutput("links"),
       h2("Reusing this data"),
