@@ -30,7 +30,7 @@ shinyUI(fluidPage(
       h2("Reusing this data"),
       HTML("The data is released into the public domain under the
            <a href = 'https://creativecommons.org/publicdomain/zero/1.0/'>CC-0 public domain dedication</a>, and can be freely reused
-           by all and sundry.)
+           by all and sundry.")
     ),
 
     # Show a plot of the generated distribution
