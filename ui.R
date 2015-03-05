@@ -41,7 +41,9 @@ shinyUI(fluidPage(
 
     # Show a plot of the generated distribution
     mainPanel(
-      dataTableOutput("agent_table")
+      dataTableOutput("agent_table"),
+      HTML("<small><em>Agents of W.I.K.I.M.E.D.I.A.</em>  is built using <a href = 'https://shiny.rstudio.com'>Shiny</a> and has source code
+           on <a href = 'https://github.com/Ironholds/Agents'>GitHub</a>.</small>")
     )
   ), theme = shinytheme("cosmo")
 ))
