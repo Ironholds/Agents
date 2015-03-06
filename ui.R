@@ -26,9 +26,10 @@ shinyUI(fluidPage(
            to understand how to best test their software for the group they're targeting.<br/><br/>
            
            The actual data collection and anonymisation process varied between readers and editors. For readers, a 1:1000
-           sampled log of pageviews in the last 30 days was taken. Any user agent that had more than 500 (in other words,
+           sampled log of pageviews in February 2014 was taken. Any user agent that had more than 500 (in other words,
            500,000) requests in a 24-hour period, from no fewer than 500/500,000 distinct IP addresses, was extracted,
-           along with a count of how many times the agent appeared. For editors, a 90 day sample of user agents was taken
+           along with a count of how many times the agent appeared. For editors, a 90 day sample (December 2014 - February 2015)
+           of user agents was taken
            globally; any user agent used by >= 50 distinct users was extracted, along with a count of the associated
            number of edits. <br/><br/>
            
