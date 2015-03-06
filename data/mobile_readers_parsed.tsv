@@ -1,15 +1,15 @@
-"os"	"os_major"	"browser"	"browser_major"	"pageviews"
-"Other"	"Other"	"Other"	"Other"	427785
-"iOS"	"8"	"Mobile Safari"	"8"	1714975
-"iOS"	"7"	"Mobile Safari"	"7"	560883
-"Android"	"4"	"Chrome Mobile"	"28"	1070
-"Android"	"4"	"Chrome Mobile"	"40"	58615
-"Android"	"5"	"Chrome Mobile"	"40"	24085
-"Windows CE"	"Other"	"IE"	"4"	20065
-"Android"	"Other"	"Opera Mini"	"7"	20499
-"iOS"	"8"	"Chrome Mobile iOS"	"40"	50737
-"Windows Phone"	"8"	"IE Mobile"	"10"	20725
-"iOS"	"6"	"Mobile Safari"	"6"	23234
-"Android"	"Other"	"Firefox Mobile"	"35"	12860
-"iOS"	"5"	"Mobile Safari"	"5"	20209
-"Other"	"Other"	"UC Browser"	"8"	1577
+os,os_major,browser,browser_major,pageviews,percentage
+iOS,8,Mobile Safari,8,1714975000,57.9908694328
+iOS,7,Mobile Safari,7,560883000,18.9659282614
+Other,Other,Other,Other,427785000,14.4652977917
+Android,4,Chrome Mobile,40,58615000,1.9820316983
+iOS,8,Chrome Mobile iOS,40,50737000,1.7156417688
+Android,5,Chrome Mobile,40,24085000,0.8144200879
+iOS,6,Mobile Safari,6,23234000,0.7856440242
+Windows Phone,8,IE Mobile,10,20725000,0.7008036671
+Android,Other,Opera Mini,7,20499000,0.6931616102
+iOS,5,Mobile Safari,5,20209000,0.6833554311
+Windows CE,Other,IE,4,20065000,0.6784861559
+Android,Other,Firefox Mobile,35,12860000,0.4348533249
+Other,Other,UC Browser,8,1577000,0.0533253261
+Android,4,Chrome Mobile,28,1070000,0.0361814197

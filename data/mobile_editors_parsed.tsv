@@ -1,47 +1,47 @@
-os	os_major	browser	browser_major	edits
-Android	4	Android	4	167575
-iOS	8	Mobile Safari	8	128109
-iOS	7	Mobile Safari	7	66636
-iOS	8	Mobile Safari		37521
-Android	4	Chrome Mobile	39	25765
-Android	4	Chrome Mobile	40	13894
-iOS	7	Mobile Safari		13623
-iOS	6	Mobile Safari	6	9270
-Android	4	Chrome Mobile	28	7766
-Android	5	Android	5	6788
-iOS	8	Chrome Mobile iOS	39	6183
-Android	2	Android	2	5980
-Windows Phone	8	IE Mobile	11	5864
-Windows Phone	8	IE Mobile	10	4717
-iOS	8	Chrome Mobile iOS	40	3906
-iOS	5	Mobile Safari	5	2658
-iOS	6	Mobile Safari		1966
-Android	5	Chrome Mobile	40	1892
-Android	5	Chrome Mobile	39	1846
-Android	Other	Firefox Mobile	34	1739
-iOS	7	Chrome Mobile iOS	39	1654
-Android	4	Chrome	39	1595
-Android	4	Chrome Mobile	30	1286
-Android	Other	Firefox Mobile	35	1216
-BlackBerry OS	10	BlackBerry WebKit		1188
-Windows 7	Other	Chrome	39	933
-Android	5	Chrome	40	758
-Android	Other	Firefox	34	742
-Other	Other	NetFront NX	3	557
-Kindle	3	Kindle	3	549
-Android	5	Chrome	39	511
-Linux	Other	Chrome	11	509
-iOS	7	Chrome Mobile iOS	40	496
-Android	4	Chrome	40	474
-Android	Other	Firefox	35	431
-Android	Other	Firefox Mobile	33	408
-Mac OS X	10	Safari	8	301
-iOS	5	Chrome Mobile iOS	19	293
-Windows 7	Other	Chrome	40	213
-Linux	Other	Chrome	39	201
-Android	4	Amazon Silk	3	179
-Windows 7	Other	IE	11	175
-Windows 8.1	Other	Chrome	39	171
-Linux	Other	Chrome	40	149
-iOS	3	Mobile Safari	4	105
-Windows 7	Other	Firefox	35	105
+"os"	"os_major"	"browser"	"browser_major"	"edits"	"percentage"
+"Android"	"4"	"Android"	4	167575	31.6838628315154
+"iOS"	"8"	"Mobile Safari"	8	128109	24.2219184453684
+"iOS"	"7"	"Mobile Safari"	7	66636	12.5990504767469
+"iOS"	"8"	"Mobile Safari"	NA	37521	7.09419792511585
+"Android"	"4"	"Chrome Mobile"	39	25765	4.87145890409664
+"Android"	"4"	"Chrome Mobile"	40	13894	2.62697651905759
+"iOS"	"7"	"Mobile Safari"	NA	13623	2.57573780906301
+"iOS"	"6"	"Mobile Safari"	6	9270	1.75270421272951
+"Android"	"4"	"Chrome Mobile"	28	7766	1.46833882589616
+"Android"	"5"	"Android"	5	6788	1.28342569536223
+"iOS"	"8"	"Chrome Mobile iOS"	39	6183	1.16903669334483
+"Android"	"2"	"Android"	2	5980	1.13065492903155
+"Windows Phone"	"8"	"IE Mobile"	11	5864	1.10872249228111
+"Windows Phone"	"8"	"IE Mobile"	10	4717	0.891856070274553
+"iOS"	"8"	"Chrome Mobile iOS"	40	3906	0.738518085752046
+"iOS"	"5"	"Mobile Safari"	5	2658	0.502555317954157
+"iOS"	"6"	"Mobile Safari"	NA	1966	0.371716988373918
+"Android"	"5"	"Chrome Mobile"	40	1892	0.357725606308979
+"Android"	"5"	"Chrome Mobile"	39	1846	0.349028260701044
+"Android"	"Other"	"Firefox Mobile"	34	1739	0.328797478526065
+"iOS"	"7"	"Chrome Mobile iOS"	39	1654	0.312726296424446
+"Android"	"4"	"Chrome"	39	1595	0.301571005318616
+"Android"	"4"	"Chrome Mobile"	30	1286	0.243147531560966
+"Android"	"Other"	"Firefox Mobile"	35	1216	0.229912440418456
+"BlackBerry OS"	"10"	"BlackBerry WebKit"	NA	1188	0.224618403961452
+"Windows 7"	"Other"	"Chrome"	39	933	0.176404857656595
+"Android"	"5"	"Chrome"	40	758	0.14331712980032
+"Android"	"Other"	"Firefox"	34	742	0.140291966110604
+"Other"	"Other"	"NetFront NX"	3	557	0.105313510948256
+"Kindle"	"3"	"Kindle"	3	549	0.103800929103398
+"Android"	"5"	"Chrome"	39	511	0.0966161653403215
+"Linux"	"Other"	"Chrome"	11	509	0.0962380198791069
+"iOS"	"7"	"Chrome Mobile iOS"	40	496	0.0937800743812122
+"Android"	"4"	"Chrome"	40	474	0.089620474307852
+"Android"	"Other"	"Firefox"	35	431	0.0814903468917389
+"Android"	"Other"	"Firefox Mobile"	33	408	0.0771416740877714
+"Mac OS X"	"10"	"Safari"	8	301	0.0569108919127921
+"iOS"	"5"	"Chrome Mobile iOS"	19	293	0.0553983100679338
+"Windows 7"	"Other"	"Chrome"	40	213	0.0402724916193512
+"Linux"	"Other"	"Chrome"	39	201	0.0380036188520638
+"Android"	"4"	"Amazon Silk"	3	179	0.0338440187787036
+"Windows 7"	"Other"	"IE"	11	175	0.0330877278562745
+"Windows 8.1"	"Other"	"Chrome"	39	171	0.0323314369338453
+"Linux"	"Other"	"Chrome"	40	149	0.0281718368604851
+"iOS"	"3"	"Mobile Safari"	4	105	0.0198526367137647
+"Windows 7"	"Other"	"Firefox"	35	105	0.0198526367137647
